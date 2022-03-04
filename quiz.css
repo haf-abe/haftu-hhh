@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: rgb(156, 202, 243);
+    }
+    
+    
+     #quizarea
+    {
+      position: relative;
+      height:100%;
+      width:100%;
+      border-radius: 3px;
+    }
+
+    #col{
+        background-color: rgb(214, 213, 211);
+        padding: 7px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .container{
+        color: black;
+    }
+    #box{
+        padding: 6px;
+        background-color: rgb(128, 130, 127);
+        width: 95%;
+        height: 0px;
+
+    }
+    #intro {
+        color: white;
+    }
+    
+    #title{
+        padding-top: 40px;
+    }
+
+

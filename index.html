@@ -1,0 +1,205 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- required meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- link to external css -->
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+</head>
+<body>
+    <h1 id ="title"> Language Test</h1>
+    <br></br>
+    <div class ="container">
+        <div id="quizarea">
+
+            <div id="questionarea">
+                <div id= "intro">
+                    <h4>Answer the following questions to determine whether you speak American english or British english</h4>
+                    <h4 id = "box"></h4>
+                    <br></br>
+                    <br></br>
+                    <input type="button" value="Start the quiz"class="btn btn-success mx-auto" onclick="question1()"/>
+                </div>
+
+            </div>
+
+
+            <form id ="quizform">
+
+                <!-- Question 1 -->
+
+                <div id="question1" class="mx-auto">
+                    <div class ="row-justify-content-center">
+                        <h5 class="text-center">1. Which one of the following sentences do you prefere?</h5>
+                    </div>
+
+
+                    <div class="row"> 
+                        &nbsp;
+                    </div>
+
+
+                    <div  class="row justify-content-center">
+                        <input type="radio" name ="ques1" id="al" value="1"/>
+                        <label for="a1" class ="text-center">a, You could have got hurt.</label>
+                    </div>
+
+
+                    <div  class="row justify-content-center">
+                        <input type="radio" name ="ques1" id="a2" value="2"/>
+                        <label for="a2" class ="text-center">b, You could have gotten hurt. </label>
+                    </div>
+
+
+                    <div class="row" class="justify-content-center">
+                        <input type="button" value="Question 2" class="btn btn-success mx-auto" onclick="question2()"/>
+                    </div>
+                </div>
+
+
+                <!-- question 2 -->
+
+                <div id="question2">
+                    <div class ="row-justify-content-center">
+                        <h4 class="text-center"> 2. Which of the following spelling do you prefere?</h4>
+                    </div>
+
+
+                    <div class="row"> 
+                        &nbsp;
+                    </div>
+
+
+                    <div  class="row justify-content-center">
+                        <input type="radio" name ="ques2" id="al" value="1"/>
+                        <label for="a1" class ="text-center">a, Catalogue.</label>
+                    </div>
+
+
+                    <div  class="row justify-content-center">
+                        <input type="radio" name ="ques2" id="a2" value="2"/>
+                        <label for="a2" class ="text-center">b, Catalog. </label>
+                    </div>
+
+
+                    <div class="row" class="justify-content-center">
+                        <input type="button" value="Question 3" class="btn btn-success mx-auto" onclick="question3()"/>
+                    </div>
+                </div>
+
+
+                <!-- question 3 -->
+
+                <div id="question3">
+                    <div class ="row-justify-content-center">
+                        <h4 class="text-center"> 3. Which of the follwong sentences do you use to mean someone lives near you?</h4>
+                    </div>
+
+
+                    <div class="row"> 
+                        &nbsp;
+                    </div>
+
+
+                    <div  class="row justify-content-center">
+                        <input type="radio" name ="ques3" id="al" value="2"/>
+                        <label for="a1" class ="text-center">a, He is my neighbor.</label>
+                    </div>
+
+
+                    <div  class="row justify-content-center">
+                        <input type="radio" name ="ques3" id="a2" value="1"/>
+                        <label for="a2" class ="text-center">b, He is my neighbour. </label>
+                    </div>
+
+
+                    <div class="row" class="justify-content-center">
+                        <input type="button" value="Question 4" class="btn btn-success mx-auto" onclick="question4()"/>
+                    </div>
+                </div>
+
+                <!-- question 4 -->
+                
+                <div id="question4">
+                    <div class ="row-justify-content-center">
+                        <h4 class="text-center"> 4. If you------something, you consider it carefully</h4>
+                    </div>
+
+
+                    <div class="row"> 
+                        &nbsp;
+                    </div>
+
+
+                    <div  class="row justify-content-center">
+                        <input type="radio" name ="ques4" id="al" value="2"/>
+                        <label for="a1" class ="text-center">a, Analyze.</label>
+                    </div>
+
+
+                    <div  class="row justify-content-center">
+                        <input type="radio" name ="ques4" id="a2" value="1"/>
+                        <label for="a2" class ="text-center">b, Analyse. </label>
+                    </div>
+
+
+                    <div class="row" class="justify-content-center">
+                        <input type="button" value="Question 5" class="btn btn-success mx-auto" onclick="question5()"/>
+                    </div>
+                </div>
+
+                <!-- question 5 -->
+
+                <div id="question5">
+                    <div class ="row-justify-content-center">
+                        <h4 class="text-center"> 5. Potatoes, peppers, green tomatoes and ---- contain glyco alkaloids</h4>
+                    </div>
+
+
+                    <div class="row"> 
+                        &nbsp;
+                    </div>
+
+
+                    <div  class="row justify-content-center">
+                        <input type="radio" name ="ques5" id="al" value="1"/>
+                        <label for="a1" class ="text-center">a, Aubergine.</label>
+                    </div>
+
+
+                    <div  class="row justify-content-center">
+                        <input type="radio" name ="ques5" id="a2" value="2"/>
+                        <label for="a2" class ="text-center">b, Eggplant. </label>
+                    </div>
+
+
+                    <div class="row" class="justify-content-center">
+                        <input type="button" value=" Submit" class="btn btn-success mx-auto" onclick=" result()"/>
+                    </div>
+                </div>
+
+               
+            </form>
+
+             <!-- Results -->
+
+             <div id="results" class="justify-content-center mx-auto">
+                <h4 class="text-center"></h4>
+                <br /><br />
+                <p class="text-center" id="result"></p>
+              </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+<script src="index.js" type="text/javascript"></script>
+
+</html>
